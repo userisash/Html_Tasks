@@ -1,0 +1,21 @@
+.header{
+    text-align: center;
+   background: #333;
+   color: #fff;
+}
+
+.hed{
+    text-align: center;
+}
+
+.container .img .par{
+    display: inline-block;
+}
+.container .img{
+    float: left;
+    margin-right: 50px;
+}
+
+.sec{
+    margin: 20px;
+}
