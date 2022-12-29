@@ -1,0 +1,136 @@
+body{
+    background-color: #333;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    color: #f4f4f4;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 70px;
+}
+
+.top{
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+
+.btn{
+    width: 56px;
+    height: 25px;
+    cursor: pointer;
+}
+
+/* flat */
+#btn1{
+    background: #6495ED;
+    color: #f4f4f4;
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin-left: 450px;
+}
+#btn1:hover{
+    background: rgba(255, 255, 255, 0.7);
+    color: #333;
+}
+#btn2{
+    float: right;
+    background: #DFFF00;
+    color: #fff;
+    margin-top: 15px;
+    margin-right: 450px;
+}
+
+#btn2:hover{
+    background: rgba(255, 255, 255, 0.5);
+    color: #333;
+}
+
+/* round */
+#btn3{
+    float: left;
+    border-radius: 50px;
+    margin-left: 450px;
+    background: #808000;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+}
+
+#btn3:hover{
+    background: rgba(255, 255, 255, 0.7);
+    color: #000;
+}
+#btn4{
+    float: right;
+    border-radius: 50px;
+    background: #FF0000;
+    color: #fff;
+    margin-right: 450px;
+    margin-top: 15px;
+}
+
+#btn4:hover{
+    background: rgba(255, 255, 255, 0.7);
+    color: #000;
+}
+/* flat ghost */
+
+#btn5{
+    float: left;
+    background: none;
+    color: #fff;
+    border:1px solid  #808000;
+    width: 100px;
+    height: 50px;
+    margin-left: 450px;
+
+}
+#btn5:hover{
+    background: #DFFF00;
+    color: #000;
+}
+#btn6{
+    float: right;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    color: #fff;
+    margin-right: 450px;
+    margin-top: 15px;
+}
+#btn6:hover{
+    background: #f4f4f4;
+    color: #000;
+}
+/* round ghost */
+#btn7{
+    float: left;
+    background: none;
+    color: #fff;
+    border: 1px solid #DFFF00;
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    margin-left: 450px;
+}
+#btn7:hover{
+    background: #808000;
+    color: #000;
+}
+#btn8{
+    float: right;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-right: 450px;
+}
+#btn8:hover{
+    background: rgba(255, 255, 255, 0.7);
+    color: #000;
+}
